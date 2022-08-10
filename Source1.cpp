@@ -1,11 +1,17 @@
 // Deikstra (eakonnov@edu.hse.ru)
 
 #define _CRT_SECURE_NO_WARNINGS
+#include <iostream>
 #include <stdio.h>
 #include <stdlib.h>
 #define SIZE 6
+
+using namespace std;
+
 int main()
 {
+	setlocale(LC_ALL, "Rus");
+
 	int a[SIZE][SIZE]; // матрица связей
 	int d[SIZE]; // минимальное расстояние
 	int v[SIZE]; // посещенные вершины
